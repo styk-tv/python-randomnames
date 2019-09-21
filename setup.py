@@ -1,8 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-execfile(os.path.join(os.path.dirname(__file__), 'randomnames/version.py'))
-
+exec(open(os.path.join(os.path.dirname(__file__), 'randomnames/version.py')).read())
 
 setup(
     name='python-randomnames',
